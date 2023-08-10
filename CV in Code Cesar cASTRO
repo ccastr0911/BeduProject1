@@ -1,0 +1,160 @@
+
+
+% Change the page layout if you need to
+\geometry{left=1cm,right=9cm,marginparwidth=6.8cm,marginparsep=1.2cm,top=1.25cm,bottom=1.25cm,footskip=2\baselineskip}
+
+% Change the font if you want to.
+
+% If using pdflatex:
+\usepackage[T1]{fontenc}
+\usepackage[utf8]{inputenc}
+\usepackage[default]{lato}
+
+% If using xelatex or lualatex:
+% \setmainfont{Lato}
+
+% Change the colours if you want to
+\definecolor{Navy}{HTML}{000080}
+\definecolor{SlateGrey}{HTML}{2E2E2E}
+\definecolor{LightGrey}{HTML}{666666}
+\colorlet{heading}{Navy}
+\colorlet{accent}{Navy}
+\colorlet{emphasis}{SlateGrey}
+\colorlet{body}{LightGrey}
+
+% Change the bullets for itemize and rating marker
+% for \cvskill if you want to
+\renewcommand{\itemmarker}{{\small\textbullet}}
+\renewcommand{\ratingmarker}{\faCircle}
+%% sample.bib contains your publications
+\addbibresource{sample.bib}
+
+\usepackage[colorlinks]{hyperref}
+
+\begin{document}
+
+\name{Cèsar Elias Castro Soria}
+\tagline{Escuela Bancaria y Comercial/ITAM/BEDU}
+\tagline{Lic. en Finanzas y Banca/Data Scientist}
+% \photo{2.8cm}{Globe_High}
+\personalinfo{%
+  % Not all of these are required!
+  % You can add your own with \printinfo{symbol}{detail}
+  \email{castrossoria@gmail.com}
+  \phone{(+52) 5521091254}
+  \mailaddress{Amores 33 Col. del Valle Norte}
+%  \location{Gwalior, India}
+%  \homepage{abhinavj004.github.io}
+%  \twitter{@marissamayer}
+   \github{github.com/ccastr0911} % I'm just making this up though.
+  %% You MUST add the academicons option to \documentclass, then compile with LuaLaTeX or XeLaTeX, if you want to use \orcid or other academicons commands.
+%   \orcid{orcid.org/0000-0000-0000-0000}
+}
+
+%% Make the header extend all the way to the right, if you want. 
+\begin{fullwidth}
+\makecvheader
+\end{fullwidth}
+
+%% Depending on your tastes, you may want to make fonts of itemize environments slightly smaller
+% \AtBeginEnvironment{itemize}{\small}
+
+
+%% Provide the file name containing the sidebar contents as an optional parameter to \cvsection.
+%% You can always just use \marginpar{...} if you do
+%% not need to align the top of the contents to any
+%% \cvsection title in the "main" bar.
+\cvsection[page1sidebar]{Experiencia}
+
+\begin{itemize}
+    \item \cvevent{Subdirector Financiero}{Grupo Name/ Modatelas-Mumuso-Hema}{Junio 2018 -- Actual}{CDMX}
+    \item Responsable de Planeacion Financiera de la compañia (Modatelas). 
+    \item Responsable del Àrea de Administracion de Riesgos. ( Seguros del Grupo , Negociacion y Administaciòn de Polizas ) 
+    \item  Desarrollo de gestiòn de herramientas y sistemas para control interno.
+    \item Relación con Banca Corporativa ( Apertura y Seguimiento de Lineas de Crèdito)  así como la relaciòn con inversionistas. 
+\item Elaboraciòn de Presentaciones comitè ejecutivo de resultados mensual( Seguimiento de  KPIS , Presupuesto, Flujo de Efectivo, Razones Financieras como Indicadores de Valuaciòn de la compañia) .
+\item Elaboraciòn , control y seguimiento de presupuesto.
+\item  Responsable del Control y Cobranza de Arrendamientos (CXC). 
+\item Desarrollo se sistemas de automatizaciòn  funciones en CXP , Contabilidad , Conciliacion de Ingresos y Control Presupuestal. 
+\item Responsable de Análisis Financiero e Integraciòn de cuentas P&L/ Balance para efectos de control y cierre contable .
+
+\divider
+\medskip
+\begin{itemize}
+    \item \cvevent{Gerencia Financiera }{Bisquets Obregon Franquicias }{Abril 2014-Junio 2018}{CDMX}
+\end{itemize}
+\begin{itemize}
+\end{itemize}
+\item Responsable de Revisión y Análisis de información financiera- contable por parte de las Unidades Franquiciadas (113 Unidades) ( Provisiones , Ajustes , Conciliaciones y Control Interno). 
+\item Responsable de Análisis financiero, líder de desarrollo y creaciòn de herramienta de Business Inteligence Qlikview,  Dashboard Monitor de indicadores financieros , KPIS , así como del costeo de productos y control de márgenes presupuestales . 
+\item Control de gastos y elaboración de presupuestos tanto de gastos como de ventas (Ingresos).
+\item Elaboración de estados proforma Calculo de Punto de Equilibrio , así como de análisis de tendencias . 
+\item Responsable de Elaboración de Presentaciones Financieras Ejecutivas hacia Dirección y Juntas de Comité de Socios , (Trimestrales) así como de la asistencia técnica Financiera a Franquiciatarios Inversionistas. 
+\begin{itemize}
+
+
+\cvsection{LOGROS MAS IMPORTANTES}
+
+\cvevent{Reduccion de Gasto atraves de Presupuesto Base Cero}{Proyecto Estrategico}{Septiembre 2018 -- Diciembre 2018}{}
+\cvevent{ Desarrollo de Herramientas de Inteligencia de Negocios Qlikview , con tableros Ejecutivos y Comerciales}{Self-Learning Project}{Mayo 2013 -- Mayo 2014}{}
+\cvevent{Diseño y Desarrollo de Herramientas para automatizacion de funciones en las diferentes areas de gestion de Finanzas }{Control Interno y Eficiencia }{2022 -- Actual}{}
+
+\end{itemize}
+\end{document}
+
+
+\cvsection{Educación}
+\cvevent{Escuela Bancaria y Comercial}{Lic. en Finanzas y Banca}{ 2007 -- 2011 \hspace{1 cm} Promedio: 9.2}{}
+\cvevent{ITAM \ }{Diplomado en Planeacion Estrategica}{ 2012-2013 \hspace{1.25 cm}  Concluido}{}
+\cvevent{BEDU \ }{Data Analyst  Data Scientist}{ 2021-2022\hspace{1.25 cm} Proy Mejor Calificado}{}
+
+% \divider
+\cvsection{Herramientas} 
+\cvtag{Python}
+\cvtag{Office Avanzado}
+\cvtag{Machine Learning}
+\cvtag{Monday}
+\cvtag{Git}
+\cvtag{Tensorflow}
+\cvtag{Scikit-Learn}
+\cvtag{Matplotlib}
+\cvtag{Numpy}
+\cvtag{Pandas}
+\cvtag{Ingles FCE Cambridge}
+\cvtag{Excel Avanzado}
+\cvtag{Qlikview}
+\cvtag{SAP}
+\cvtag{Oracle}
+\cvtag{Hyperion Financial Sistem}
+
+
+
+
+%% Yeah I didn't spend too much time making all the 
+%% spacing consistent... sorry. Use \smallskip, \medskip, 
+%% \bigskip, \vpsace etc to make ajustments.
+\medskip
+\cvsection{ENFOQUE}
+
+\begin{itemize}
+    \item Creacion de Valor de la Empresa
+    \item Control Interno
+    \item Automatizacion de Procesos
+    \item Inteligencia Artificial
+    \item Creaciòn de Herramientas de Inteligencia de Negocios.
+    \item Aseguramiento de Contabilidad e Informacion Financiera de 
+        Calidad
+    \item Control del Costo y Gasto 
+    \item  Planeacion Estrategica Metodo SMART
+    \item Ingenieria Financiera ( Maximizaciòn de Rentabilidad)
+    \item Administracion y Control de Riesgos
+\end{itemize}
+
+\cvsection{Otros Cursos y Diplomados}
+\begin{itemize}
+    \item Proyección Estados Financieros – Centro de Estudios Fiscales S.C. 
+    \item Alta Dirección de Empresas , Habilidades Gerenciales, Big Data e Ingeniera Financiera.
+    \item  Master in Finance 2021 - Asociacion Mexicana de Inversionistas
+\end{itemize}
+
+\end{itemize}
